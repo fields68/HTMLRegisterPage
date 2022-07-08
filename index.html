@@ -9,40 +9,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#" class="navButton">About Us</a>
-            <a href="#" class="navButton">Log in</a>    
-        </nav>
+        <a href="#">About Us</a>
+        <a href="#">Log in</a> 
     </header>
 
-    <h2></h2>
-    <div>
-        <form class="signUp"; action="";>
-            <h1>Sign Up</h1>
-            <p>
-                <label><input type="text" name="inputBox" placeholder="Email"></label>
-            </p>
-            <p>
-                <label><input type="text" name="inputBox" placeholder="Username"></label>
-            </p>
-            <p>
-                <label><input type="text" name="inputBox" placeholder="Password"></label>
-            </p>
-            <p>
-                <label><input type="text" name="inputBox" placeholder="Confim Password"></label>
-            </p>
-            <p>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form>
+            <div>
+                <input type="email" placeholder="Email" name="email" requireds />
+            </div>
+            <div>
+                <input type="text" placeholder="Username" name="username" required />
+            </div>
+            <div>
+                <input type="password" placeholder="Password" name="password" required />
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" required />
+            </div>
+
+            <div>
                 <button type="submit">Submit</button>
-            </p>
-
-            <hr />
-
-            <a href="#" class="logos"><img src="./assets/amazon.png" alt="Amazon Logo"></a>
-            <a href="#" class="logos"><img src="./assets/facebook.png" alt="Facebook Logo"></a>
-            <a href="#" class="logos"><img src="./assets/github.png" alt="Github Logo"></a>
-            <a href="#" class="logos"><img src="./assets/slack.png" alt="Slack Logo"></a>
-            <a href="#" class="logos"><img src="./assets/instagram.png" alt="Instagram Logo"></a>
+            </div>
         </form>
-    </div> 
+        <footer>
+            <img src="./assets/amazon.png" alt="Amazon Logo" height="32" width="32" />
+            <img src="./assets/facebook.png" alt="Facebook Logo" height="32" width="32" />
+            <img src="./assets/github.png" alt="Github Logo" height="32" width="32" />
+            <img src="./assets/slack.png" alt="Slack Logo" height="32" width="32" />
+            <img src="./assets/instagram.png" alt="Instagram Logo" height="32" width="32" />
+        </footer>
+    </div>
 </body>
 </html>
